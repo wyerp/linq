@@ -1,6 +1,6 @@
 package com.bestvike.linq.util;
 
-import com.bestvike.linq.function.Func1;
+import com.bestvike.function.Func1;
 
 /**
  * Created by 许崇雷 on 2017/7/16.

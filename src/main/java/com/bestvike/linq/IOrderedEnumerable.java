@@ -1,7 +1,7 @@
 package com.bestvike.linq;
 
-import com.bestvike.linq.function.Func1;
-import com.bestvike.linq.iterator.Enumerable;
+import com.bestvike.function.Func1;
+import com.bestvike.linq.iteratorold.Enumerable;
 
 import java.util.Comparator;
 

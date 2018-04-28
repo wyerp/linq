@@ -1,9 +1,11 @@
 package com.bestvike.linq;
 
-import com.bestvike.linq.function.Func1;
-import com.bestvike.linq.function.Func2;
-import com.bestvike.linq.iterator.Enumerable;
-import com.bestvike.linq.iterator.EnumerableEx;
+import com.bestvike.collections.generic.Array;
+import com.bestvike.collections.generic.IEqualityComparer;
+import com.bestvike.function.Func1;
+import com.bestvike.function.Func2;
+import com.bestvike.linq.iteratorold.Enumerable;
+import com.bestvike.linq.iteratorold.EnumerableEx;
 
 import java.math.BigDecimal;
 import java.util.Comparator;
@@ -196,6 +198,10 @@ public interface IEnumerable<TSource> extends Iterable<TSource> {
 
     default TSource[] toArray(Class<TSource> clazz) {
         return Enumerable.toArray(this, clazz);
+    }
+
+    default Array<TSource> toArray() {
+        return Enumerable.toArray(this);
     }
 
     default List<TSource> toList() {

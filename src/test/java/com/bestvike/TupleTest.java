@@ -1,5 +1,14 @@
 package com.bestvike;
 
+import com.bestvike.tuple.Tuple;
+import com.bestvike.tuple.Tuple1;
+import com.bestvike.tuple.Tuple2;
+import com.bestvike.tuple.Tuple3;
+import com.bestvike.tuple.Tuple4;
+import com.bestvike.tuple.Tuple5;
+import com.bestvike.tuple.Tuple6;
+import com.bestvike.tuple.Tuple7;
+import com.bestvike.tuple.TupleMore;
 import org.junit.Assert;
 import org.junit.Test;
 

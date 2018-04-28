@@ -1,11 +1,11 @@
 package com.bestvike.linq.impl;
 
+import com.bestvike.collections.generic.IEqualityComparer;
+import com.bestvike.function.Func1;
 import com.bestvike.linq.IEnumerable;
 import com.bestvike.linq.IEnumerator;
-import com.bestvike.linq.IEqualityComparer;
 import com.bestvike.linq.IGrouping;
 import com.bestvike.linq.exception.Errors;
-import com.bestvike.linq.function.Func1;
 
 /**
  * Created by 许崇雷 on 2017/7/11.

@@ -1,7 +1,7 @@
 package com.bestvike.linq;
 
-import com.bestvike.linq.iterator.Enumerable;
-import com.bestvike.linq.iterator.EnumerableEx;
+import com.bestvike.linq.iteratorold.Enumerable;
+import com.bestvike.linq.iteratorold.EnumerableEx;
 
 import java.util.Collection;
 import java.util.List;
